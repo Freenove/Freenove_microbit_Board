@@ -44,7 +44,7 @@ Open MakeCode first. Import the .hex file. The path is as below:
 +-----------+----------------------------------------------------+-----------------------------+
 | File type | Path                                               | File name                   |
 +-----------+----------------------------------------------------+-----------------------------+
-| HEX file  | ../Projects/BlockCode/11.1_DisplayMagnetometerData | DisplayMagnetometerData.hex |
+| HEX file  | ../Projects/BlockCode/04.1_DisplayMagnetometerData | DisplayMagnetometerData.hex |
 +-----------+----------------------------------------------------+-----------------------------+
 
 After importing successfully, the code is shown as below:
@@ -110,7 +110,7 @@ Open the .py file with Mu. Code, the path is as below:
 +-------------+-----------------------------------------------------+----------------------------+
 | File type   | Path                                                | File name                  |
 +-------------+-----------------------------------------------------+----------------------------+
-| Python file | ../Projects/PythonCode/11.1_DisplayMagnetometerData | DisplayMagnetometerData.py |
+| Python file | ../Projects/PythonCode/04.1_DisplayMagnetometerData | DisplayMagnetometerData.py |
 +-------------+-----------------------------------------------------+----------------------------+
 
 After loading successfully, the code is shown as below:
@@ -144,7 +144,7 @@ The angular offset is the angle between the direction of the micro:bit and the g
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/11.1_DisplayMagnetometerData/DisplayMagnetometerData.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/04.1_DisplayMagnetometerData/DisplayMagnetometerData.py
     :linenos: 
     :language: python
     :lines: 1-6
@@ -152,7 +152,7 @@ The following is the program code:
 
 Magnetometer calibration.
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/11.1_DisplayMagnetometerData/DisplayMagnetometerData.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/04.1_DisplayMagnetometerData/DisplayMagnetometerData.py
     :linenos: 
     :language: python
     :lines: 2-2
@@ -160,7 +160,7 @@ Magnetometer calibration.
 
 The angular offset read from the magnetometer chip is stored in the variable azimuth and then printed out every 1s through a serial port.
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/11.1_DisplayMagnetometerData/DisplayMagnetometerData.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/04.1_DisplayMagnetometerData/DisplayMagnetometerData.py
     :linenos: 
     :language: python
     :lines: 4-6
@@ -214,7 +214,7 @@ Open MakeCode first. Import the .hex file. The path is as below:
 +-----------+----------------------------------------------+-----------------------+
 | File type | Path                                         | File name             |
 +-----------+----------------------------------------------+-----------------------+
-| HEX file  | ../Projects/BlockCode/11.2_ElectronicCompass | ElectronicCompass.hex |
+| HEX file  | ../Projects/BlockCode/04.2_ElectronicCompass | ElectronicCompass.hex |
 +-----------+----------------------------------------------+-----------------------+
 
 After importing successfully, the code is shown as below:
@@ -274,7 +274,7 @@ Open the .py file with Mu. Code, the path is as below:
 +-------------+-----------------------------------------------+----------------------+
 | File type   | Path                                          | File name            |
 +-------------+-----------------------------------------------+----------------------+
-| Python file | ../Projects/PythonCode/11.2_ElectronicCompass | ElectronicCompass.py |
+| Python file | ../Projects/PythonCode/04.2_ElectronicCompass | ElectronicCompass.py |
 +-------------+-----------------------------------------------+----------------------+
 
 After loading successfully, the code is shown as below:
@@ -297,7 +297,7 @@ And so on in the same fashion, in every 45 degrees, the arrow points to a partic
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/11.2_ElectronicCompass/ElectronicCompass.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/04.2_ElectronicCompass/ElectronicCompass.py
     :linenos: 
     :language: python
     :lines: 1-20
@@ -312,7 +312,7 @@ Calibrate the electronic compass first and store the data on the variable azimut
 
 Determine the value of the variable azimuth and change the direction of the arrow.
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/11.2_ElectronicCompass/ElectronicCompass.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/04.2_ElectronicCompass/ElectronicCompass.py
     :linenos: 
     :language: python
     :lines: 5-20

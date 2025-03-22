@@ -46,7 +46,7 @@ Import the .hex file. The path is as below:
 +-----------+-----------------------------------------------------+------------------------------+
 | File type | Path                                                | File name                    |
 +-----------+-----------------------------------------------------+------------------------------+
-| HEX file  | ../Projects/BlockCode/12.1_DisplayAccelerometerData | DisplayAccelerometerData.hex |
+| HEX file  | ../Projects/BlockCode/05.1_DisplayAccelerometerData | DisplayAccelerometerData.hex |
 +-----------+-----------------------------------------------------+------------------------------+
 
 After importing successfully, the code is shown as below:
@@ -89,7 +89,7 @@ Open the .py file with Mu. Code, the path is as below:
 +-------------+---------------------------------------------+-----------------------------+
 | File type   | Path                                        | File name                   |
 +-------------+---------------------------------------------+-----------------------------+
-| Python file | ../PythonCode/12.1_DisplayAccelerometerData | DisplayAccelerometerData.py |
+| Python file | ../PythonCode/05.1_DisplayAccelerometerData | DisplayAccelerometerData.py |
 +-------------+---------------------------------------------+-----------------------------+
 
 After loading successfully, the code is shown as below:
@@ -106,7 +106,7 @@ After the program is downloaded, open the plotter (Plotter), click on the REPL, 
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/12.1_DisplayAccelerometerData/DisplayAccelerometerData.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/05.1_DisplayAccelerometerData/DisplayAccelerometerData.py
     :linenos: 
     :language: python
     :lines: 1-4
@@ -114,7 +114,7 @@ The following is the program code:
 
 Every 1 second, the accelerometer data will be obtained and printed through the serial port.
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/12.1_DisplayAccelerometerData/DisplayAccelerometerData.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/05.1_DisplayAccelerometerData/DisplayAccelerometerData.py
     :linenos: 
     :language: python
     :lines: 3-4
@@ -127,7 +127,7 @@ Reference
 
     Get the acceleration measurements in all axes at once, as a three-element tuple of integers ordered as X, Y, Z. By default the accelerometer is configured with a range of +/- 2g, so X, Y, and Z will be within the range of +/-2000mg.
 
-Project 12.2 Gradiometer
+Project Gradiometer
 *****************************************
 
 In this project, we will use the accelerometer to make a level instrument.
@@ -166,7 +166,7 @@ Import the .hex file. The path is as below:
 +-----------+---------------------------------------+----------------+
 | File type | Path                                  | File name      |
 +-----------+---------------------------------------+----------------+
-| HEX file  | ../Projects/BlockCode/12.2_Gradienter | Gradienter.hex |
+| HEX file  | ../Projects/BlockCode/05.2_Gradienter | Gradienter.hex |
 +-----------+---------------------------------------+----------------+
 
 After importing successfully, the code is shown as below:
@@ -236,7 +236,7 @@ Open the .py file with Mu. Code, the path is as below:
 +-------------+----------------------------------------+---------------+
 | File type   | Path                                   | File name     |
 +-------------+----------------------------------------+---------------+
-| Python file | ../Projects/PythonCode/12.2_Gradienter | Gradienter.py |
+| Python file | ../Projects/PythonCode/05.2_Gradienter | Gradienter.py |
 +-------------+----------------------------------------+---------------+
 
 After loading successfully, the code is shown as below:
@@ -248,7 +248,7 @@ Check the connection of the circuit and verify it correct, download the code int
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/12.2_Gradienter/Gradienter.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/05.2_Gradienter/Gradienter.py
     :linenos: 
     :language: python
     :lines: 1-15
@@ -256,7 +256,7 @@ The following is the program code:
 
 A custom mapping() function limits the input value to a range of -400 to 400 and maps to a range of 0-4.
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/12.2_Gradienter/Gradienter.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/05.2_Gradienter/Gradienter.py
     :linenos: 
     :language: python
     :lines: 2-8
@@ -264,7 +264,7 @@ A custom mapping() function limits the input value to a range of -400 to 400 and
 
 Read the value of the accelerometer X, Y-axis direction. The return value range is -2000-2000. This project does not require such a wide range, So we set it to the range of -400to 400. Call the mapping() function to return the value ranging from 0-4 , lighting the LED corresponding to the x row and the y column.
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/12.2_Gradienter/Gradienter.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/05.2_Gradienter/Gradienter.py
     :linenos: 
     :language: python
     :lines: 9-15

@@ -45,7 +45,7 @@ Open MakeCode first. Import the .hex file. The path is as below:
 +-----------+---------------------------------------+----------------+
 | File type | Path                                  | File name      |
 +-----------+---------------------------------------+----------------+
-| HEX file  | ../Projects/BlockCode/10.1_SerialPort | SerialPort.hex |
+| HEX file  | ../Projects/BlockCode/03.1_SerialPort | SerialPort.hex |
 +-----------+---------------------------------------+----------------+
 
 After importing successfully, the code is shown as below: 
@@ -97,7 +97,7 @@ Open the .py file with Mu. Code, the path is as below:
 +-------------+----------------------------------------+---------------+
 | File type   | Path                                   | File name     |
 +-------------+----------------------------------------+---------------+
-| Python file | ../Projects/PythonCode/10.1_SerialPort | SerialPort.py |
+| Python file | ../Projects/PythonCode/03.1_SerialPort | SerialPort.py |
 +-------------+----------------------------------------+---------------+
 
 After loading successfully, the code is shown as below:
@@ -119,7 +119,7 @@ Then press the reset button (the button on the back) of the Micro:bit and we wil
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/10.1_SerialPort/SerialPort.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/03.1_SerialPort/SerialPort.py
     :linenos: 
     :language: python
     :lines: 1-7
@@ -127,7 +127,7 @@ The following is the program code:
 
 Every 1 second, the value of the variable number is incremented by 1, and the new value will be sent to the serial port, where "\r\n" is the meaning of the newline.
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/10.1_SerialPort/SerialPort.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/03.1_SerialPort/SerialPort.py
     :linenos: 
     :language: python
     :lines: 5-7
